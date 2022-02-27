@@ -28,7 +28,7 @@ body {
 
 main {
   width: 30vw;
-  height: 95vh;
+  /* height: 95vh; */
   text-align: center;
   background-color: var(--background);
   border: solid #9c27b0;
