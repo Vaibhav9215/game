@@ -28,6 +28,7 @@ body {
 
 main {
   width: 30vw;
+  height: 95vh;
   text-align: center;
   background-color: var(--background);
   border: solid #9c27b0;
@@ -107,15 +108,17 @@ button:last-child {
  ---------------------------------*/
 
 #gameArea {
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#newGameButton button {
+/* #newGameButton button {
   margin: 2rem 0;
-}
+  display: block;
+} */
 
 input {
   border: 0.1rem solid lightgray;
@@ -155,6 +158,7 @@ input {
   main {
     width: 50vw;
     padding: 2rem;
+
   }
   input {
     width: 20rem;
